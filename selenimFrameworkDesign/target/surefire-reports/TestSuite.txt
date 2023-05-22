@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.412 s <<< FAILURE! - in TestSuite
+runScenario(Cucumber.TestNGTestRunner)  Time elapsed: 4.728 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Logged in with username vikas@gmail.com and password Vikas123' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("Logged in with username vikas@gmail.com and password Vikas123")
+public void logged_in_with_username_vikas_gmail_com_and_password_vikas123() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T15:20:19 IST" name="Suite" finished-at="2023-02-07T15:22:00 IST" duration-ms="101180">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyAcademy.tests.SubmitOrderTest@1f3f02ee]" name="submitorder" class="rahulshettyAcademy.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="erorHandling">
+        <method signature="ErrorValidation.errorval()[pri:0, instance:rahulshettyAcademy.tests.ErrorValidation@1e097d59]" name="errorval" class="rahulshettyAcademy.tests.ErrorValidation"/>
+      </group> <!-- erorHandling -->
+    </groups>
+    <test started-at="2023-02-07T15:20:19 IST" name="Submit Order Test" finished-at="2023-02-07T15:22:00 IST" duration-ms="101180">
+      <class name="rahulshettyAcademy.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:rahulshettyAcademy.tests.SubmitOrderTest@1f3f02ee]" started-at="2023-02-07T15:20:19 IST" name="launchapp" finished-at="2023-02-07T15:21:49 IST" duration-ms="89728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyAcademy.tests.SubmitOrderTest@1f3f02ee]" started-at="2023-02-07T15:21:49 IST" name="submitorder" data-provider="getdata" finished-at="2023-02-07T15:21:53 IST" duration-ms="4545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vikas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:rahulshettyAcademy.tests.SubmitOrderTest@1f3f02ee]" started-at="2023-02-07T15:21:53 IST" name="launchapp" finished-at="2023-02-07T15:21:56 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyAcademy.tests.SubmitOrderTest@1f3f02ee]" started-at="2023-02-07T15:21:56 IST" name="submitorder" data-provider="getdata" finished-at="2023-02-07T15:22:00 IST" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vikas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+      </class> <!-- rahulshettyAcademy.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
