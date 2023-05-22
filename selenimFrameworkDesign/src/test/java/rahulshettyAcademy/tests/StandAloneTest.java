@@ -55,6 +55,8 @@ public class StandAloneTest {
 	driver.findElement(By.cssSelector(".action__submit")).click();
 	String cnmsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
 	Assert.assertTrue(cnmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+	System.out.println("test completed");
+	System.out.println("exit driver");
 	driver.quit();
 	
 	}
